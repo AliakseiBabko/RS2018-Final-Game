@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    const data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<section class="grid">
+		<div id="b">
+			<section id = 'dropped'>
+				<div class='drop' id ='toclone' ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			</section>
+		</div>
+		</div>
+		<div id="e"></div>
+		<div id='submit'>
+			<button id = 'button'>Confirmation </button><br/>
+		</div>
+	</section>
+<script src="dist/index2.js"></script>
+</body>
+</html>

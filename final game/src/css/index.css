@@ -1,0 +1,54 @@
+* {
+	margin:  auto;
+}
+
+body {
+	background:  orange;
+}
+
+.grid {
+	display:  grid;
+	border:  2px solid black;
+	margin-top: 30px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 330px auto;
+	background-color: white;
+	font-size: 40px;
+	color:  blue;
+	background-image: url('../images/horiz.png');
+
+}
+
+.dd {
+	color :  black;
+}
+
+#answer {
+	width: 200px;
+	height: 60px;
+	color: blue;
+	font-size: 30px;
+	text-align: center;
+}
+
+#confirmation {
+	background-color: #00FF00;
+	width: 200px;
+	height: 60px;
+	margin-bottom: 20px;
+
+}
+
+#submit {
+	grid-column-start: 5;
+}
+
+#e {
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+#speak {
+	width: 60px;
+	height: 60px;
+}

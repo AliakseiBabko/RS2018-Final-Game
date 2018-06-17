@@ -1,0 +1,77 @@
+body, canvas {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapperMonster {
+	position: absolute;
+	bottom: 30px;
+	right: 0;
+}
+.wrapperPlayer {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+}
+.wrapperExplosion {
+	position: absolute;
+	bottom: 50px;
+	left: 420px;
+}
+img {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.name {
+	margin: 10px auto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.redStrokeNoFill {
+	stroke-width: 10px;
+	stroke: red;
+	stroke-linecap: round;
+	fill: none;
+}
+.redFillNoStroke {
+	stroke: none;
+	fill: red;
+}
+.salmonFillNoStroke {
+	stroke: none;
+	fill: lightsalmon;
+}
+.redStrokeWhiteBackground {
+	stroke-width: 10px;
+	stroke: red;
+	fill: MISTYROSE;
+}
+.redStrokeSalmonBackground {
+	stroke-width: 10px;
+	stroke: red;
+	fill: lightsalmon;
+}
+.greenStrokeNoFill {
+	stroke-width: 10px;
+	stroke: green;
+	stroke-linecap: round;
+	fill: none;
+}
+.greenStrokeWhiteBackground {
+	stroke-width: 10px;
+	stroke: green;
+	fill: HONEYDEW;
+}
+.greenStrokeGreenBackground {
+	stroke-width: 10px;
+	stroke: green;
+	fill: palegreen;
+}
+.greenFillNoStroke {
+	stroke: none;
+	fill: green;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Puzzle Balance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/puzzleBalance.css" />
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+    <canvas id='starField'></canvas>
+    <div class="puzzleWrapper">
+        <div id='rules'><p>RULES: Your task is to balance numbers shown within circles in two groups. Pick a circle from the top and drag it into one of the boxes. The game is won when the sum of numbers in the circles in two boxes are equal.</p></div>
+        <div id="playingField"></div>
+        <div id='isEqual' class='isEqual'>&#60;</div>
+        <div id="displaySumOfBlues" class='blues'></div>
+        <div id="displaySumOfReds" class='reds'></div>
+    </div>
+    <script src="js/puzzleBalance.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+.tableWrapper {
+	width: 550px;
+	height: 230px;
+	display: block;	
+	position: relative;
+  top: 35px;
+	overflow: auto;
+}
+table {
+	width: 99%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid grey;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+thead td {
+	border: 1 px solid grey;
+	background-color: lightgrey;
+}
+thead {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+  top: 15px;
+	font-weight: bold;
+}
+td:first-child {
+	text-align: center;	
+	width: 10%;
+}
+td:last-child {
+	text-align: center;	
+	width: 15%;
+}

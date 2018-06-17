@@ -1,0 +1,55 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.puzzleWrapper {
+	display: block;
+	width: 720px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+p {
+	display: block;
+	width: 694px;
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 720px / 2);
+	padding: 5px;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+svg {
+	position: absolute;
+	top: 150px;
+	left: calc(50% - 720px / 2);
+	background-color: lightgreen;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+text {
+	pointer-events: none;
+}
+.isEqual {
+	position: absolute;
+	top: 310px;
+	left: calc((50% - 360px) + 330px);
+	font-size: 65px;
+}
+circle {
+	cursor: pointer;
+}
+.blues, .reds {
+	position: absolute;
+	color: grey;
+	font-size: 30px;
+}
+.blues {	
+	top: 305px;
+	left: calc((50% - 360px) + 55px);
+}
+.reds {
+	top: 305px;
+	left: calc((50% - 360px) + 395px);
+}
